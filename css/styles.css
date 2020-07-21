@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin:0;
+  padding: 0;
+  font-size:100%;
+  -webkit-text-size-adjust:100%;
+  font-family: 'Baloo Da 2', cursive;
+}
+.container {
+  width: 100%;
+}
+.container h1 {
+  text-align: center;
+  margin: 3rem auto;
+  font-size:1.75em;
+  font-weight: bold;
+  color: teal;
+}
+.menu-one, .menu-two, .menu-three {
+  border: 1px solid black;
+  padding-right:0.5rem;
+  padding-left:0.5rem;
+  position: relative;
+  box-shadow:0 1rem 2.5rem rgba(0,0,0,0.2);
+  -webkit-box-shadow:0 1rem 2.5rem rgba(0,0,0,0.2);
+  width:90%;
+  margin:0 auto;
+  background-color:SlateGray;
+  color:white;
+}
+article h {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  width: 6rem;
+  border:1px solid black;
+  text-align: center;
+  font-size :1.25em;
+  cursor: pointer;
+}
+.menu-one h {
+  background-color: DarkCyan;
+  color: white;
+}
+.menu-two h {
+  background-color:CadetBlue;
+  color: white;
+}
+.menu-three h {
+  background-color:DarkSlateGray;
+  color:white;
+}
+article p {
+  margin: 3rem auto 0.5rem;
+  line-height: 1.5;
+}
+.col-sm, .col-md-1, .col-md-2, .col-lg {
+  float: left;
+ margin: 1rem auto;
+}
+@media (min-width:320px) and (max-width:767px){
+ .col-sm {
+   width:100%;
+ }
+}
+@media (min-width:768px) and (max-width:991px){
+ .col-md-1 {
+  width:50%;
+ }
+.col-md-2 {
+  width:100%;
+}
+}
+@media (min-width:992px){
+ .col-lg {
+   width: 33%;
+ }
+}
+
